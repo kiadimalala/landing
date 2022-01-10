@@ -57,6 +57,10 @@ export default {
   object-position: top;
 }
 
+.features{
+  padding-top: 7rem;
+}
+
 @media (max-width: 426px) {
   .section .container {
     width: 90%;

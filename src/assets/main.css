@@ -228,3 +228,7 @@
     --secondary:#2DC071;
     --secondary:F15B07;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

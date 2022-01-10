@@ -13,7 +13,7 @@
           <Hero />
         </div>
       </Section>
-      
+      <Features />
     </Layout>
   </div>
 </template>
@@ -23,9 +23,11 @@ import Layout from "./Layout/Layout.vue";
 import Section from "./components/Section/Section";
 import Navigation from "./components/Navigation/Navigation.vue";
 import Hero from "./components/Hero/Hero.vue";
+import Features from "./components/Features/Features.vue";
+
 export default {
   name: "App",
-  components: { Layout, Section, Navigation, Hero },
+  components: { Layout, Section, Navigation, Hero, Features },
 };
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <button :class="btnClass" v-on="$listenersbbb">
+  <button :class="btnClass" v-on="$listeners">
     {{ label }}
     <slot></slot>
   </button>
